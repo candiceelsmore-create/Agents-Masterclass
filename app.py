@@ -132,7 +132,7 @@ if uploaded_file:
                     "content": prompt
                 }
             ],
-            model="llama-3.1-70b-versatile",
+            model="llama-3.1-8b-instant",
         )
 
         ai_commentary = response.choices[0].message.content
